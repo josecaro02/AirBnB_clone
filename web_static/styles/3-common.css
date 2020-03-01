@@ -3,17 +3,16 @@ html, body {
   margin: 0;
 }
 
+
+.container {
+  min-height: 87%;
+  margin-bottom: -60px;
+}
+
 body {
     margin: 0;
     padding: 0;
     color: #484848;
     font-size: 14px;
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-.container {
-    min-height: calc(100vh - 60px - 70px - 62px);
-    margin-bottom: -60px;
-    max-width: 1000px;
-    margin: 30px auto 30px auto;
 }
